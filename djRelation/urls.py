@@ -21,4 +21,5 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     path('adhar/',include('adhar.urls')),
     path('account/',include('account.urls')),
+    path('inventory/',include('inventory.urls')),
 ]
